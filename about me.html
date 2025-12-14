@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me - NurIrdina Sufiyah Portfolio</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: white;
+        text-align: center;
+    }
+
+    header img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    nav {
+        background: #ffe6f2;
+        padding: 12px 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #cc0066;
+        font-weight: bold;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        color: #ff3385;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ff4da6;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-box {
+        max-width: 900px;
+        margin: auto;
+        background: #fff0f7;
+        padding: 35px;
+        border-radius: 25px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        text-align: left;
+        color: #cc0066;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .section-title {
+        font-size: 26px;
+        font-weight: bold;
+        color: #ff4da6;
+        margin-top: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    /* 🌸 PERSONAL INFO FRAME */
+    .personal-frame {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        background: #ffe6f2;
+        padding: 25px;
+        border-radius: 22px;
+        border: 3px solid #ff99c8;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .personal-frame img {
+        width: 170px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 18px;
+        border: 3px solid #ff80bf;
+    }
+
+    ul {
+        padding-left: 25px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    /* FOOD LIST WITH IMAGE */
+    .food-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .food-item {
+        display: flex;
+        align-items: center;
+        background: #ffe6f2;
+        padding: 12px;
+        border-radius: 18px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    }
+
+    .food-item img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 14px;
+        margin-right: 18px;
+    }
+
+    .food-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: #cc0066;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+        .personal-frame {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .personal-frame img {
+            width: 150px;
+            height: 190px;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <a href="index.html">
+        <img src="logo.jpg" alt="Logo">
+    </a>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about me.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h2 class="title">About Me</h2>
+
+<div class="about-box">
+
+    <div class="section-title">Personal Information</div>
+
+    <!-- 🌸 FRAME PERSONAL INFO -->
+    <div class="personal-frame">
+        <img src="dinaa.jpg" alt="NurIrdina Sufiyah">
+
+        <p>
+            <strong>Name:</strong> NurIrdina Sufiyah binti Turizal<br>
+            <strong>Nickname:</strong> Dina / Irdina<br>
+            <strong>Age:</strong> 20 years old<br>
+            <strong>Date of Birth:</strong> 8 July 2005<br>
+            <strong>Gender:</strong> Female<br>
+            <strong>From:</strong> Telok Panglima Garang, Selangor<br>
+            <strong>Nationality:</strong> Malaysian
+        </p>
+    </div>
+
+    <div class="section-title">Personality Traits</div>
+    <ul>
+        <li><strong>Clumsy</strong></li>
+        <li><strong>Friendly</strong></li>
+        <li><strong>Empathetic</strong></li>
+        <li><strong>Forgiving</strong></li>
+        <li><strong>Humorous</strong></li>
+    </ul>
+
+    <div class="section-title">Favorite Foods & Drinks</div>
+
+    <div class="food-list">
+
+        <div class="food-item">
+            <img src="ayam gepuk.jpg" alt="Ayam Gepuk">
+            <div class="food-name">Ayam Gepuk (Chicken Breast)</div>
+        </div>
+
+        <div class="food-item">
+            <img src="Ayam-penyet-resipi-foto-utama.jpg" alt="Ayam Penyet">
+            <div class="food-name">Ayam Penyet</div>
+        </div>
+
+        <div class="food-item">
+            <img src="Paprik_1x1.jpg" alt="Paprik Ayam">
+            <div class="food-name">Paprik Ayam</div>
+        </div>
+
+        <div class="food-item">
+            <img src="teh ais.jpg" alt="Teh Ais">
+            <div class="food-name">Teh Ais</div>
+        </div>
+
+        <div class="food-item">
+            <img src="milo ais.jpg" alt="Milo Ais">
+            <div class="food-name">Milo Ais Kosong</div>
+        </div>
+
+        <div class="food-item">
+            <img src="chagee.jpg" alt="Chagee">
+            <div class="food-name">Chagee</div>
+        </div>
+
+        <div class="food-item">
+            <img src="zus.jpg" alt="Zus Coconut Latte">
+            <div class="food-name">Zus Coconut Latte</div>
+        </div>
+
+        <div class="food-item">
+            <img src="matcha.jpg" alt="Matcha">
+            <div class="food-name">Matcha</div>
+        </div>
+
+    </div>
+
+    <div class="section-title">Hobbies</div>
+    <ul>
+        <li>Singing</li>
+        <li>Chatting with close friends (Discord)</li>
+        <li>Makeup</li>
+        <li>Cooking</li>
+    </ul>
+
+</div>
+
+</body>
+</html>
+
